@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "9d183ddc-556b-4743-962b-8f84f7c0af73",
+		"name": "Tugas 15 Intro Echo Golang",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23660625"
+	},
+	"item": [
+		{
+			"name": "tambah data user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"meryl\",\r\n    \"email\" : \"merylputra00@gmail.com\",\r\n    \"password\" : \"4321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cek data user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ubah data user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "meryl putra pratama",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "merylputrapratama00@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "4321",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/users/1?id=1&name=meryl putra pratama&email=merylputrapratama00@gmail.com&password=4321",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"1"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "name",
+							"value": "meryl putra pratama"
+						},
+						{
+							"key": "email",
+							"value": "merylputrapratama00@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "4321"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cari data user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "hapus data user",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/users/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
