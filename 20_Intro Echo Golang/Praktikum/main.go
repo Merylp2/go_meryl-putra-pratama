@@ -29,7 +29,6 @@ func GetUsersController(c echo.Context) error {
 
 // get user by id
 func GetUserController(c echo.Context) error {
-
 	resp := map[string]interface{}{
 		"messages": "users not found",
 		"users":    nil,
