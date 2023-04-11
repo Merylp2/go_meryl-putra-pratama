@@ -1,16 +1,16 @@
-* INTRODUCTION CLEAN ARCHITECTURE
+> INTRODUCTION CLEAN ARCHITECTURE
 
 Clean Architecture is a software architecture Domain Driven Design is software design technique
 
-* MISSION STATEMENT
+> MISSION STATEMENT
 
 Good architecture is a separation of concern using layer to build a modular, scalable, maintainable and testable application.
 
-* INTRODUCTION CONTEXT
+> INTRODUCTION CONTEXT
 
 Package context or we call it context, is a package that carries deadlines, cancellation signals, or other values in API requests
 
-* DECOUPLING CLEAN ARCHITECTURE
+> DECOUPLING CLEAN ARCHITECTURE
 
 - Entities
 - Use cases
