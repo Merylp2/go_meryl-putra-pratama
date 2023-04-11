@@ -1,19 +1,19 @@
-* PENGERTIAN DOCKER
+> PENGERTIAN DOCKER
 
 Docker adalah platform open source yang memungkinkan pengembang dan sysadmin untuk membangun, mengemas, dan menjalankan aplikasi di dalam container. Container memungkinkan suatu aplikasi untuk diisolasi dengan lingkungan yang terpisah dan independen, sehingga dapat berjalan di berbagai lingkungan tanpa perlu menginstall dependensi yang berbeda-beda
 
-* CONTAINER
+> CONTAINER
 
 - Pengurangan pada lapisan aplikasi
 - Pengurangan pada lapisan aplikasi Kontainer menggunakan lebih sedikit ruang daripada VM (gambar kontainer biasanya berukuran puluhan MB)
 - Menangani lebih banyak aplikasi dan membutuhkan lebih sedikit VM dan sistem Operationg
 
-* VIRTUAL MACHINES
+> VIRTUAL MACHINES
 
 - Abstraksi hadrware fisik
 - Setiap VM menyertakan salinan lengkap sistem operasi lambat untuk booting
 
-* DOCKER BASIC
+> DOCKER BASIC
 
 - Image
 - Container
@@ -21,7 +21,7 @@ Docker adalah platform open source yang memungkinkan pengembang dan sysadmin unt
 - Registry
 - Control Plane
 
-* PERINTAH - PERINTAH DOCKER
+> PERINTAH - PERINTAH DOCKER
 
 - FROM = Mendapatkan citra dari registri docker
 - RUN = Menjalankan perintah bash saat membangun kontainer
